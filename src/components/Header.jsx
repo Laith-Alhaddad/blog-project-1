@@ -28,7 +28,7 @@ const Header = () => {
         <div className='flex gap-x-9 items-center'>
          <ul className='flex gap-x-5 font-semibold'>
         {NavItemInfo.map((item) =>(
-          <NavItem key={item.name}/>
+          <NavItem key={item.name} name={item.name} />
         ))}
          </ul>
          <button className='border-2 border-blue-500 px-6 py-3 rounded-full text-blue-500 font-semibold hover:bg-blue-500 hover:text-white transition-all duration-300'>
