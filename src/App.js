@@ -4,7 +4,7 @@ import HomePage from './pages/HomePage';
 
 function Card(){
   return(
-    <div className='App'>
+    <div className='App font-opensans'>
         <HomePage/>
     </div>
   )
